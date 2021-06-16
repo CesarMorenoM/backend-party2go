@@ -1,7 +1,6 @@
 import express, {json} from 'express'
 import morgan from 'morgan'
 import runnerRoutes from './routes/runners'
-import router from './routes/runners'
 import db from './database/database';
 
 
